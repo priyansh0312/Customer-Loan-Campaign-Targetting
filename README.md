@@ -18,3 +18,8 @@ Building a model that will help the marketing department to identify the potenti
  - **With 0.12 Threshold** : Recall 0.89, Precision 0.53, Accuracy 0.91
  - **With 0.27 Threshold** : Recall 0.81, Precision 0.72, Accuracy 0.95
  - **With Sequential Feature Selector** : Recall 0.59, Precision 0.89, Accuracy 0.95
+ 
+ 
+### 2. Decision Tree
+ - **Without Hyperparameter tuning** : Overfitting the train data (1.00)
+ - **With Hyperparameter tuning** : Recall .78, Precision 1.00, Accuracy 0.97
