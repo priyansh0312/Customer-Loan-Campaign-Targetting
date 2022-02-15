@@ -13,13 +13,13 @@ Building a model that will help the marketing department to identify the potenti
 
 
 ## Results
-### 1. Logistic Regression
- - **With 0.5 Threshold** : Recall 0.67, Precision 0.88, Accuracy 0.96
- - **With 0.12 Threshold** : Recall 0.89, Precision 0.53, Accuracy 0.91
- - **With 0.27 Threshold** : Recall 0.81, Precision 0.72, Accuracy 0.95
- - **With Sequential Feature Selector** : Recall 0.59, Precision 0.89, Accuracy 0.95
+### Trained Logistic Regression model with varying thresholds and feature selection
  
- 
-### 2. Decision Tree
- - **Without Hyperparameter tuning** : Overfitting the train data (1.00)
- - **With Hyperparameter tuning** : Recall .78, Precision 1.00, Accuracy 0.97
+`On the Training Set`
+- The best balance between Recall and Precision of 0.77 and 0.71, respectively, has been given by Logistic Regression with threshold of 0.27 
+- The best accuracy score of 0.95 has been given by Logistic Regression with threshold of 0.27
+
+
+`On the Test Set`
+- The best balance between Recall and Precision of 0.81 and 0.72, respectively, has been given by Logistic Regression with threshold of 0.27 
+- The best accuracy score of 0.95 has been given by Logistic Regression with default threshold of 0.5
